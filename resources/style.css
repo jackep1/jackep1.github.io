@@ -25,6 +25,12 @@ td {
 
 #footerlinks {
     bottom: 0;
+    clear: both;
+}
+
+.footerlink {
+    margin:auto;
+    position: relative;
 }
 
 /* For about page*/
@@ -32,4 +38,5 @@ td {
     width: 50%;
     float: left;
     clear: both;
+    padding: 10px;
 }
