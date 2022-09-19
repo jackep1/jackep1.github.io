@@ -4,9 +4,9 @@ body {
     margin: 0;
 }
 
-#bannerimg {
-    height: 250px;
-    width: 100%;
+#widthset {
+    width: 1024px;
+    margin-left: 5px;
 }
 
 table {
@@ -34,9 +34,24 @@ td {
 }
 
 /* For about page*/
-.photo {
-    width: 50%;
+#boardphoto {
+    height: 20em;
     float: left;
     clear: both;
     padding: 10px;
+}
+
+#gravephoto {
+    height: 25em;
+    float: left;
+    clear: both;
+    padding: 10px;
+}
+
+#picsofme {
+    clear: both;
+}
+
+.picsofme {
+    height: 25em;
 }
