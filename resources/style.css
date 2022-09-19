@@ -1,14 +1,21 @@
+/* For all pages */
 body {
     background-color: rgb(183, 240, 240);
     margin: 0;
 }
-td {
-    padding: 10px;
+
+#bannerimg {
+    height: 250px;
+    width: 100%;
 }
 
-#boardingphoto {
-    width: 50%;
-    float: left;
+table {
+    position:relative;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
 }
 
 .caption {
@@ -16,7 +23,13 @@ td {
     width: 45%;
 }
 
-#bannerimg {
-    height: 250px;
-    width: 100%;
+#footerlinks {
+    bottom: 0;
+}
+
+/* For about page*/
+.photo {
+    width: 50%;
+    float: left;
+    clear: both;
 }
