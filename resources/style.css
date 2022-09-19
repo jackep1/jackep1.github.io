@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(183, 240, 240);
+    margin: 0;
+}
+td {
+    padding: 10px;
+}
+
+#boardingphoto {
+    width: 50%;
+    float: left;
+}
+
+.caption {
+    float: right;
+    width: 45%;
+}
+
+#bannerimg {
+    height: 250px;
+    width: 100%;
+}
