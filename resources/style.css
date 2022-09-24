@@ -33,7 +33,7 @@ td {
     position: relative;
 }
 
-/* For about page*/
+/* For about page */
 #boardphoto {
     height: 20em;
     float: left;
@@ -54,4 +54,11 @@ td {
 
 .picsofme {
     height: 25em;
+}
+
+/* For javascripts page */
+
+.jsgroup {
+    display: flex;
+    flex-wrap: wrap;
 }
