@@ -26,6 +26,8 @@ td {
 #footerlinks {
     bottom: 0;
     clear: both;
+    display: flex;
+    justify-content: center;
 }
 
 .footerlink {
@@ -58,7 +60,11 @@ td {
 
 /* For javascripts page */
 
-/* .jsgroup {
+.jsgroup {
     display: flex;
     flex-wrap: wrap;
-} */
+}
+
+.jsembed {
+    width: 32%;
+}
